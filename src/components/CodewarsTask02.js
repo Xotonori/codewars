@@ -34,3 +34,31 @@ const CodewarsTask02 = () => {
 };
 
 export default CodewarsTask02;
+
+
+
+
+
+
+function correctPolishLetters (string) {
+    const polishLetters = ['ą', 'ć', 'ę', 'ł', 'ń', 'ó', 'ś', 'ź', 'ż'];
+    const latinLetters = ['a', 'c', 'e', 'l', 'n', 'o', 's', 'z', 'z'];
+
+    const arrayInputString = string.split('');
+    const checkedIndexes = [];
+
+    arrayInputString.filter(letter => {
+        checkedIndexes.push(polishLetters.indexOf(letter))
+    });
+
+    return arrayInputString.map((letter, index) => {
+
+        if(checkedIndexes[index] === -1) {
+            return letter;
+        } else {
+            return latinLetters[checkedIndexes[index]]
+        }
+
+    }).join('');
+
+}
