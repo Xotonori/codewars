@@ -15,7 +15,6 @@ const CodewarsTask04 = () => {
         resArr.push(a*b+c);
         resArr.push(a*(b+c));
         resArr.push(a+b+c);
-
         return Math.max.apply(null, resArr);
     }
 
