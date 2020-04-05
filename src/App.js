@@ -6,6 +6,8 @@ import CodewarsTask03 from "./components/CodewarsTask03";
 import CodewarsTask04 from "./components/CodewarsTask04";
 import CodewarsTask05 from "./components/CodewarsTask05";
 import CodewarsTask06 from "./components/CodewarsTask06";
+import CodewarsTask07 from "./components/CodewarsTask07";
+import CodewarsTask08 from "./components/CodewarsTask08";
 
 const App = () => {
     return (
@@ -16,6 +18,8 @@ const App = () => {
             4. <CodewarsTask04 />
             5. <CodewarsTask05 />
             6. <CodewarsTask06 />
+            7. <CodewarsTask07 />
+            8. <CodewarsTask08 />
         </div>
     );
 };
