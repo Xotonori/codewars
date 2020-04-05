@@ -14,7 +14,6 @@ const CodewarsTask05 = () => {
         } else {
             return 'false'
         }
-
     }
 
     return (

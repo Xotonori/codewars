@@ -5,15 +5,17 @@ import CodewarsTask02 from "./components/CodewarsTask02";
 import CodewarsTask03 from "./components/CodewarsTask03";
 import CodewarsTask04 from "./components/CodewarsTask04";
 import CodewarsTask05 from "./components/CodewarsTask05";
+import CodewarsTask06 from "./components/CodewarsTask06";
 
 const App = () => {
     return (
         <div className="App">
-            <CodewarsTask01 />
-            <CodewarsTask02 />
-            <CodewarsTask03 />
-            <CodewarsTask04 />
-            <CodewarsTask05 />
+            1. <CodewarsTask01 />
+            2. <CodewarsTask02 />
+            3. <CodewarsTask03 />
+            4. <CodewarsTask04 />
+            5. <CodewarsTask05 />
+            6. <CodewarsTask06 />
         </div>
     );
 };
