@@ -12,6 +12,8 @@ import CodewarsTask09 from "./components/CodewarsTask09";
 import CodewarsTask10 from "./components/CodewarsTask10";
 import CodewarsTask11 from "./components/CodewarsTask11";
 import CodewarsTask12 from "./components/CodewarsTask12";
+import CodewarsTask13 from "./components/CodewarsTask13";
+
 
 const App = () => {
     return (
@@ -28,6 +30,7 @@ const App = () => {
             10. <CodewarsTask10 />
             11. <CodewarsTask11 />
             12. <CodewarsTask12 />
+            13. <CodewarsTask13 />
         </div>
     );
 };
